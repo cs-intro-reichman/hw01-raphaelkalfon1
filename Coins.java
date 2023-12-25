@@ -5,7 +5,7 @@ public class Coins {
         
         int v = Integer.parseInt(args[0]);
         
-        // k equal to the entire partie of the division.
+        // k equal to the entire part of the division.
         int k = v / y;
 
         // z equal v modulo y, so that it gives me the rest of the division of v/y.
