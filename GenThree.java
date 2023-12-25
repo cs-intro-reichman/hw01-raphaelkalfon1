@@ -16,7 +16,7 @@ public class GenThree {
         double s = Math.random();
         double t = Math.random();
         
-        // because this function give random from 0 to 1, then i multiplie it by the difference between the two variables
+        // because this function give random from 0 to 1, then i multiplie it by the difference between the two variables and add 1, then a to be sure that my numbers are between a and b
         u = (int) (r * (b - a + 1) + a) ; 
         v = (int) (s * (b - a + 1) + a) ;
         w = (int) (t * (b - a + 1) + a) ;
